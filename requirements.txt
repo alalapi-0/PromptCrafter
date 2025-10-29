@@ -1,0 +1,1 @@
+# PromptCrafter 依赖占位文件，后续将列出与 OpenAI API 交互所需的库。
