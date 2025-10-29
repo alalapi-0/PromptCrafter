@@ -1,6 +1,7 @@
 # PromptCrafter
 
-PromptCrafter 是一个跨平台的 Prompt 生成器原型，旨在通过解析模板占位符、调用 OpenAI 大模型生成动态参数，并将结果组合为完整的提示词内容，帮助开发者快速构建可复用的 Prompt 工作流。
+PromptCrafter 是一个跨平台的 Prompt 生成器原型，旨在通过解析模板占位符、调用 OpenAI 大模型生成动态参数，并将结果组合为完整的提示
+词内容，帮助开发者快速构建可复用的 Prompt 工作流。
 
 ## 项目结构
 ```
@@ -25,6 +26,8 @@ PromptCrafter/
 
 ## 环境准备
 - 运行项目前请确保安装 [PyYAML](https://pyyaml.org/)，可使用 `pip install pyyaml` 进行安装。
+- 调用 OpenAI 接口前请先安装官方 SDK：`pip install openai`。
+- 请在环境变量中设置 `OPENAI_API_KEY`，作为访问 OpenAI 接口的密钥。
 
 ## 后续功能预告
 - ⏱️ 支持定时任务调度，自动批量生成 Prompt。
