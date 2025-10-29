@@ -23,6 +23,9 @@ PromptCrafter/
 - ✅ Windows
 - ✅ Linux
 
+## 环境准备
+- 运行项目前请确保安装 [PyYAML](https://pyyaml.org/)，可使用 `pip install pyyaml` 进行安装。
+
 ## 后续功能预告
 - ⏱️ 支持定时任务调度，自动批量生成 Prompt。
 - 🤖 集成 OpenAI API，实现模板参数的智能填充。

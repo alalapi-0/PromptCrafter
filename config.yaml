@@ -1,18 +1,10 @@
-# PromptCrafter 示例配置文件，包含模型名称、参数以及输出设置。
-model:
-  name: gpt-4.1
-  temperature: 0.7
-  max_tokens: 512
-
-placeholders:
-  - 职业
-  - 风格
-  - 主题
-
-output:
-  directory: output
-  filename: result.txt
-
-logging:
-  level: INFO
-  file: promptcrafter.log
+openai_model: "gpt-4"
+temperature: 0.7
+params:
+  - name: 职业
+    prompt: "请生成一个有趣的职业名称"
+  - name: 主题
+    prompt: "请生成一个未来科技相关的主题"
+  - name: 风格
+    prompt: "请生成一种语气风格，如轻松、严肃、幽默"
+output_file: "output/result.txt"
